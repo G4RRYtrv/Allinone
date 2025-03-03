@@ -1,28 +1,46 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
-    "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
-    },
-    "description":"Example listing of VRChat packages",
-    "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
-        "text":"View on GitHub"
-    },
-    "bannerUrl":"banner.png",
-    "githubRepos":[
-        "vrchat-community/clientsim"
-    ],
-    "packages":[
-        {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
+  "name": "My Custom VCC Repo",
+  "author": "G4RRY",
+  "id": "com.g4rry.vccrepo",
+  "url": "https://github.com/G4RRYtrv/Allione",
+  "githubRepos": [
+    "VRCFury/VRCFury",
+    "BlackStartx/VRC-Gesture-Manager",
+    "lyuma/Av3Emulator"
+  ],
+  "packages": {
+    "com.g4rry.allinone": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.g4rry.allinone",
+          "displayName": "G4RRY's All-in-One Package",
+          "version": "1.0.0",
+          "description": "Installs Poiyomi, VRCFury, Gesture Manager, and AV3Manager all in one package.",
+          "author": {
+            "name": "G4RRY",
+            "url": "https://github.com/G4RRYtrv"
+          },
+          "vpmDependencies": {
+            "com.vrcfury.vrcfury": "latest",
+            "com.blackstartx.gesturemanager": "latest",
+            "com.lyuma.av3emulator": "latest"
+          },
+          "legacyFolders": {
+            "Assets/_PoiyomiShaders": ""
+          },
+          "legacyFiles": {},
+          "hideInEditor": false,
+          "license": "MIT",
+          "unity": "2019.4",
+          "type": "Tool",
+          "releases": [
+            {
+              "url": "https://github.com/G4RRYtrv/Allinone/releases/download/v1.0.0/poi_Pro_7.3.50_UpTo_9.2.1.unitypackage",
+              "version": "1.0.0"
+            }
+          ]
         }
-    ]
+      }
+    }
+  }
 }
